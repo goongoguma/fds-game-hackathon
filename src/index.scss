@@ -1,5 +1,32 @@
-$main-color: skyblue;
+$main-color: rgb(120, 194, 231);
 
 body {
   background-color: $main-color;
+}
+
+.row {
+  display: flex;
+}
+.col {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  margin: 1px;
+}
+
+.col.checked {
+  background-color: peachpuff;
+}
+
+// .restart {
+//   background-color: white;
+//   height: 50px;
+// }
+
+.reset {
+  display: none;
+}
+
+.reset.show {
+  display: inline-block;
 }
